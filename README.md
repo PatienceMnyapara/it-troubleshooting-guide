@@ -11,6 +11,9 @@ User unable to connect to WiFi network
 * DHCP issues
 * Router problems
 * Device network settings
+  
+## Root Cause Example
+The issue was caused by the router failing to assign an IP address (DHCP issue), preventing the device from connecting to the network.
 
 ### Troubleshooting Steps
 1. Verify WiFi is turned on
@@ -64,9 +67,22 @@ Printer not responding or printing
 Printer resumes normal operation
 
 ##Troubleshooting Methodology
-
 * Identify the problem clearly
 * Analyze possible causes
 * Test solutions step-by-step
 * Confirm resolution
 * Document the solution
+
+## User Interaction
+* Ask the user when the issue started
+* Confirm if other devices were affected
+* Guid the user step-by-step through basic checks
+
+### Escalation
+Escalate the issue if:
+* Hardware failure is suspected
+* Issue persists after all troubleshooting steps
+* Network-wide outage is detected
+
+
+
